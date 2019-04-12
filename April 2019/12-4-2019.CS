@@ -1,3 +1,9 @@
+//QUESTION
+/*Given a string containing only lowercase letters, 
+find whether every letter that appears in the string 
+appears the same number of times.*/
+
+//SOLUTION
 using System;
 using System.Linq;
 using System.Collections;
