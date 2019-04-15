@@ -13,6 +13,7 @@ public class Program
 {
 	public static void Main()
 	{
+		//Tests to prove that code is working
 		Console.WriteLine(balanced("xxxyyyzzz"));
 		Console.WriteLine(balanced("abccbaabccba"));
 		Console.WriteLine(balanced("xxxyyyzzzz"));
@@ -36,7 +37,7 @@ public class Program
 			repeats.Add(sentence_letters.Count(p => p == i));
 		}
 		
-    //Check if repeats are the same
+    		//Check if repeats are the same
 		for(int x = 0; x < repeats.Count; x++){
 			if((int)repeats[x] != (int)repeats[0]){ 
 				return false;
