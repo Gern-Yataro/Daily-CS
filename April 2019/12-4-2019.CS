@@ -38,7 +38,7 @@ public class Program
 		
     //Check if repeats are the same
 		for(int x = 0; x < repeats.Count; x++){
-			if((int)repeats[x] != (int)repeats[0]){
+			if((int)repeats[x] != (int)repeats[0]){ 
 				return false;
 			}
 		}
