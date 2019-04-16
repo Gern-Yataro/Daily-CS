@@ -8,12 +8,12 @@ using System;
 					
 public class Program {
 	public static void Main() {
-		Console.WriteLine(EANcheck(501234576421));
+		Console.WriteLine(EANcheck(238695431209));
 	}
 	
-	public static long EANcheck(long x) {
+	public static string EANcheck(long x) {
 		int digitSum = 0;
-		long output = x*10;
+		int checkDigit = 0;
 		x = x*10;
 		long[] EAMarr = new long[13];
 		for(int i = 12; i >= 0; i--){
@@ -22,6 +22,8 @@ public class Program {
 			int a = i % 2;
 			digitSum += (i%2 == 0)? (int)EAMarr[i] : (int)EAMarr[i]*3;
 		}
-		return output + (10 - (digitSum % 10));
+		checkDigit = (digitSum%10 == 0)? 0 : (10 - (digitSum % 10));
+		string output = string.Join("", EAMarr);
+		return output + checkDigit;
 	}
 }
