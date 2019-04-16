@@ -15,15 +15,15 @@ public class Program {
 		int digitSum = 0;
 		int checkDigit = 0;
 		x = x*10;
-		long[] EAMarr = new long[13];
+		long[] EANarr = new long[13];
 		for(int i = 12; i >= 0; i--){
-			EAMarr[i] = x%10;
+			EANarr[i] = x%10;
 			x = x/10;
 			int a = i % 2;
-			digitSum += (i%2 == 0)? (int)EAMarr[i] : (int)EAMarr[i]*3;
+			digitSum += (i%2 == 0)? (int)EANarr[i] : (int)EANarr[i]*3;
 		}
 		checkDigit = (digitSum%10 == 0)? 0 : (10 - (digitSum % 10));
-		string output = string.Join("", EAMarr);
+		string output = string.Join("", EANarr);
 		return output + checkDigit;
 	}
 }
