@@ -1,3 +1,9 @@
+//QUESTION
+/*Given an 12-digit number, find the 13th digit that would make a valid EAM13.
+  You may need to consider the case of leading 0's to get up to 11 digits. 
+  That is, an input of 12345 would correspond to a UPC start of 00000012345.*/
+
+//SOLUTION
 using System;
 					
 public class Program {
