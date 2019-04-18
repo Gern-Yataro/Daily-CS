@@ -11,9 +11,9 @@ using System;
 					
 public class Program {
 	public static void Main() {
-    Console.WriteLine(addPersistence(13));
-    Console.WriteLine(addPersistence(1234));
-    Console.WriteLine(addPersistence(9876));
+    		Console.WriteLine(addPersistence(13));
+    		Console.WriteLine(addPersistence(1234));
+    		Console.WriteLine(addPersistence(9876));
 		Console.WriteLine(addPersistence(199));
 	}
 	
