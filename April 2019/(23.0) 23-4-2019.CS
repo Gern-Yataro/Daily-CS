@@ -1,3 +1,8 @@
+//QUESTION
+//What is the value of the first triangle number
+//to have over five hundred divisors?
+
+//SOLUTION
 using System;
 
 public class Program
