@@ -1,4 +1,4 @@
-# Project-Euler
+# Project Euler
 Solutions for computer science daily challenges
 
 ### [Report] April 2019
