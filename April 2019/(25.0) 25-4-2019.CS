@@ -1,3 +1,7 @@
+//QUESTION
+//Referring to the Collatz Conjecture, which starting number, under one million, produces the longest chain?
+
+//SOLUTION
 using System;
 using System.Linq;
 using System.Collections.Generic;
