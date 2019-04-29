@@ -1,6 +1,6 @@
 //QUESTION
 //If all the numbers from 1 to 1000 (one thousand) 
-//inclusive were written out in words, 
+//inclusive were written out in word form, 
 //how many letters would be used?
 
 //SOLUTION 
@@ -56,4 +56,4 @@ public class Program
 		
 		return totalCount;
 	}
-}
+} 
