@@ -1,0 +1,42 @@
+using System;
+
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Hello World");
+		triangleNumbers a = new triangleNumbers(3);
+		a.populate("1 2 3 4 5 6 7 8 9 0 5 4 3 2 1 2 3 5 7 8 8 6 4 7 8 9 6 4 4 3");
+	}
+	
+	public static int findMaxPath(int[][] triangle)
+	{
+		return 1;
+	}
+	
+	public class triangleNumbers
+	{
+		int height = 0;
+		int[][] triangleGrid;
+		public triangleNumbers(int height){
+			this.height = height;
+			triangleGrid = new int[height][];
+		}
+		
+		public int populate(string numbers){
+		    string[] tempNumbers = numbers.Split(' ');
+			int[] convertedNumbers = Array.ConvertAll<string, int>(tempNumbers, int.Parse);
+			int size = 1;
+			int counter = 0;
+			for(int x=0; x < height; x++){
+				for(int y=0; y < size; y++){
+					triangleGrid[x][y] = convertedNumbers[counter];
+					Console.WriteLine(convertedNumbers[counter]);
+					counter++;
+				}
+				size++;
+			}
+			return 1;
+		}
+	}
+}
