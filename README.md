@@ -9,3 +9,5 @@ Solutions for computer science daily challenges
 4. However, if you're using a language/implementation that guarantees tail recursion elimination and automatic memoization, quite a few cases that have obvious iterative solutions can be implemented recursively with little or no loss of efficiency or readability
 5. Tower of Hanoi with recursion went very well
 6. Use BigInteger for extremely large numbers, or you can create your own alternative with arrays, using the concept of carrying
+7. Learned and applied basics of dynamic programming
+8. Learned and applied tail recursion
