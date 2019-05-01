@@ -9,9 +9,7 @@ def bubble_sort(array):
     swapped = False
     for index in range(search_length):
       if array[index] > array[index+1]:
-        temp = array[index+1]
-        array[index+1] = array[index]
-        array[index] = temp
+        array[index+1], array[index] = array[index], array[index+1]
         swapped = True
     search_length -= 1
 
