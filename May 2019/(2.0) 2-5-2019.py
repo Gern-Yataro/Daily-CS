@@ -1,5 +1,3 @@
-//SELECTION SORT
-
 numbers = [4, 1, 6, 5, 3, 2, 9, 7, 8]
 
 def selection_sort(array, index=0):
