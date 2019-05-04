@@ -13,8 +13,6 @@ def bubble_sort(array):
         swapped = True
     search_length -= 1
 
-  print("Sorted result:")
-  for number in array:  
-    print(number, end=" ")
+  return array
 
-bubble_sort(numbers)
+print(bubble_sort(numbers))
