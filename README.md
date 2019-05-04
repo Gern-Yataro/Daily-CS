@@ -14,7 +14,8 @@ Solutions for computer science challenges
 
 ### May 2019
 ---
-1. Learned various sorting algorithms, their time complexity, pros and cons and applications.
-2. Learned Big O Notation
-3. Learned Python list, dictionary methods and formats. Also, Python does not implement tail recursion, which makes creating recursive algorithms a problem. Hence, the sorting algorithms created are more inclined towards an iterative approach
+1. Learned various sorting algorithms, their time complexity, pros and cons and applications. Learned Big O Notation
+2. Algorithms done include: Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort, Counting Sort
+3. Learned Python list, dictionary methods and formats.
+4. Python does not implement tail recursion (to ensure proper tracebacks), which makes creating recursive algorithms a problem. Hence, the sorting algorithms created are more inclined towards an iterative approach
 
