@@ -6,7 +6,7 @@ def insertion_sort(array):
        array[index], array[index-1] = array[index-1], array[index]
        index -= 1
 
-  for z in array:
-    print(z, end=" ")
+  return array
 
-insertion_sort(numbers)
+print(insertion_sort(numbers))
+
