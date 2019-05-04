@@ -11,3 +11,10 @@ Solutions for computer science daily challenges
 6. Use BigInteger for extremely large numbers, or you can create your own alternative with arrays, using the concept of carrying
 7. Learned and applied basics of dynamic programming
 8. Learned and applied tail recursion
+
+### [Report] May 2019
+---
+1. Learned various sorting algorithms, their time complexity, pros and cons and applications.
+2. Learned Big O Notation
+3. Learned Python list, dictionary methods and formats. Also, Python does not implement tail recursion, which makes creating recursive algorithms a problem. Hence, the sorting algorithms created are more inclined towards an iterative approach
+
