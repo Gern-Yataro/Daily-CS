@@ -1,7 +1,7 @@
-# Project Euler
-Solutions for computer science daily challenges
+# Project Euler Report
+Solutions for computer science challenges
 
-### [Report] April 2019
+### April 2019
 ---
 1. Learned prime number sieving algorithms, binomial coefficient, modulo (%) use cases and type casting use cases
 2. Recursion is best used in certain cases but not all, some solution can be done with loops instead 
@@ -12,7 +12,7 @@ Solutions for computer science daily challenges
 7. Learned and applied basics of dynamic programming
 8. Learned and applied tail recursion
 
-### [Report] May 2019
+### May 2019
 ---
 1. Learned various sorting algorithms, their time complexity, pros and cons and applications.
 2. Learned Big O Notation
