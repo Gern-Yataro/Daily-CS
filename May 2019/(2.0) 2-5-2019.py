@@ -2,9 +2,6 @@ numbers = [4, 1, 6, 5, 3, 2, 9, 7, 8]
 
 def selection_sort(array, index=0):
   if index == len(array)-1:
-    print("Sorted numbers: ")
-    for number in array:
-      print(number, end=" ")
     return
 
   min_index = index
@@ -15,5 +12,6 @@ def selection_sort(array, index=0):
 
   index += 1
   selection_sort(array, index)
+  return array
 
-selection_sort(numbers)
+print(selection_sort(numbers))
