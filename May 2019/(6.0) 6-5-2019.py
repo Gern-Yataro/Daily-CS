@@ -13,6 +13,10 @@ def cocktail_sort(array):
         array[index], array[index-1] = array[index-1], array[index]
         swapped = True 
     n -= 1
+    if swapped == False:
+      break
+    
+    swapped = False
     #Front to back
     for index in range (n-1, m+1, -1):
       if array[index] < array[index-1]:
