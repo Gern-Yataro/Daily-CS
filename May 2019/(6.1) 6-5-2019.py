@@ -6,7 +6,7 @@ def cycle_sort(array):
     index = 0
 
     #Find the index of target value, index must be larger than index of all previously smaller values
-    for x in range(0, len(array)-1):
+    for x in range(0, len(array)):
       if cycle_number > array[x]:
         index += 1
     
