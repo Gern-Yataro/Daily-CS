@@ -10,4 +10,4 @@ def selection_sort(array):
 
   return array
 
-print(selection_sort(numbers))
+print(selection_sort(numbers)) 
