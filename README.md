@@ -1,4 +1,4 @@
-# Project Euler Report
+# Daily Learning Report
 Solutions for computer science challenges
 
 ### April 2019
