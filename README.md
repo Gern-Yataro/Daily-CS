@@ -20,3 +20,10 @@ Solutions for computer science challenges
 4. Python does not implement tail recursion (to ensure proper tracebacks), which makes creating recursive algorithms a problem. Hence, the sorting algorithms created are more inclined towards an iterative approach
 5. Learned one and two's complement binary mathematical operation. The advantages of two's complement are addition does not need to consider signed bits (negative of positive), also storing a 4-bit number in an 8-bit register is a matter of repeating its most significant bit, plus, it does not represent negative zero (no need for additional considerations) therefore. no special logic needed
 
+### June 2019
+---
+1. Focused on completing freecodecamp's web developer certification.
+
+### July 2019
+---
+1. Focused on a personal social media web app project
